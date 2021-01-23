@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:paddingEnd="?android:attr/scrollbarSize"
+    android:background="@android:drawable/list_selector_background"
+    android:focusable="true">
+
+  <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="15dip"
+      android:layout_marginEnd="6dip"
+      android:layout_marginTop="6dip"
+      android:layout_marginBottom="6dip"
+      android:layout_weight="1">
+
+    <TextView
+	android:id="@android:id/title"
+	android:layout_alignParentLeft="true"
+	android:layout_alignParentTop="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:singleLine="true"
+	android:textAppearance="?android:attr/textAppearanceLarge"
+	android:textColor="?android:attr/textColorPrimary"
+	android:ellipsize="marquee"
+	android:fadingEdge="horizontal"/>
+
+    <TextView
+	android:id="@android:id/summary"
+	android:layout_alignParentLeft="true"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@android:id/title"
+	android:textAppearance="?android:attr/textAppearanceSmall"
+	android:textColor="?android:attr/textColorSecondary"
+	android:maxLines="2"/>
+
+    <TextView
+	android:id="@+id/seekBarPrefUnitsRight"
+	android:layout_alignParentRight="true"
+	android:layout_below="@android:id/title"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textAppearance="?android:attr/textAppearanceSmall"
+	android:textColor="?android:attr/textColorSecondary"/>
+
+    <TextView
+	android:id="@+id/seekBarPrefValue"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_toLeftOf="@id/seekBarPrefUnitsRight"
+	android:layout_below="@android:id/title"
+	android:gravity="right"
+	android:textAppearance="?android:attr/textAppearanceSmall"
+	android:textColor="?android:attr/textColorSecondary"/>
+
+    <TextView
+	android:id="@+id/seekBarPrefUnitsLeft"
+	android:layout_below="@android:id/title"
+	android:layout_toLeftOf="@id/seekBarPrefValue"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textAppearance="?android:attr/textAppearanceSmall"
+	android:textColor="?android:attr/textColorSecondary"/>
+
+    <LinearLayout
+	android:id="@+id/seekBarPrefBarContainer"
+	android:layout_alignParentLeft="true"
+	android:layout_alignParentBottom="true"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@android:id/summary"/>
+
+  </RelativeLayout>
+
+</LinearLayout>

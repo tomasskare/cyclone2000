@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nocrew="http://nocrew.org"
+    android:key="prefscr_sound"
+    android:keepScreenOn="true">
+
+    <PreferenceCategory
+	android:title="@string/pref_cat_sound"
+	android:order="0">
+
+      <org.nocrew.tomas.cyclone2000.SeekBarPreference
+      android:key="pref_sound_music"
+      android:title="@string/pref_sound_music_title"
+      android:summary="@string/pref_sound_music_summary"
+      android:defaultValue="100"
+      android:max="100"
+      nocrew:unitsRight="%"
+      />
+
+      <org.nocrew.tomas.cyclone2000.SeekBarPreference
+      android:key="pref_sound_sfx"
+      android:title="@string/pref_sound_sfx_title"
+      android:summary="@string/pref_sound_sfx_summary"
+      android:defaultValue="50"
+      android:max="100"
+      nocrew:unitsRight="%"
+      />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+	android:title="@string/pref_cat_music"
+	android:order="1">
+
+      <org.nocrew.tomas.cyclone2000.FilePickerPreference
+      android:key="pref_music_01"
+      android:title="@string/pref_music_01_title"
+      android:summary="@string/pref_music_01_summary"
+      android:order="1000"
+      android:defaultValue=""
+      android:choiceMode="singleChoice"
+      android:positiveButtonText="@string/pref_fp_positive"
+      android:negativeButtonText="@string/pref_fp_negative"
+      nocrew:showUnreadable="false"
+      nocrew:showOthers="false"
+      nocrew:showFiles="true"
+      nocrew:showHidden="true"
+      nocrew:workingDir="/sdcard"
+      nocrew:mask=".*"/>
+
+      <org.nocrew.tomas.cyclone2000.FilePickerPreference
+      android:key="pref_music_02"
+      android:title="@string/pref_music_02_title"
+      android:summary="@string/pref_music_02_summary"
+      android:order="1001"
+      android:defaultValue=""
+      android:choiceMode="singleChoice"
+      android:positiveButtonText="@string/pref_fp_positive"
+      android:negativeButtonText="@string/pref_fp_negative"
+      nocrew:showUnreadable="false"
+      nocrew:showOthers="false"
+      nocrew:showFiles="true"
+      nocrew:showHidden="true"
+      nocrew:workingDir="/sdcard"
+      nocrew:mask=".*"/>
+
+      <org.nocrew.tomas.cyclone2000.FilePickerPreference
+      android:key="pref_music_03"
+      android:title="@string/pref_music_03_title"
+      android:summary="@string/pref_music_03_summary"
+      android:order="1002"
+      android:defaultValue=""
+      android:choiceMode="singleChoice"
+      android:positiveButtonText="@string/pref_fp_positive"
+      android:negativeButtonText="@string/pref_fp_negative"
+      nocrew:showUnreadable="false"
+      nocrew:showOthers="false"
+      nocrew:showFiles="true"
+      nocrew:showHidden="true"
+      nocrew:workingDir="/sdcard"
+      nocrew:mask=".*"/>
+
+      <org.nocrew.tomas.cyclone2000.FilePickerPreference
+      android:key="pref_music_04"
+      android:title="@string/pref_music_04_title"
+      android:summary="@string/pref_music_04_summary"
+      android:order="1003"
+      android:defaultValue=""
+      android:choiceMode="singleChoice"
+      android:positiveButtonText="@string/pref_fp_positive"
+      android:negativeButtonText="@string/pref_fp_negative"
+      nocrew:showUnreadable="false"
+      nocrew:showOthers="false"
+      nocrew:showFiles="true"
+      nocrew:showHidden="true"
+      nocrew:workingDir="/sdcard"
+      nocrew:mask=".*"/>
+
+      <org.nocrew.tomas.cyclone2000.FilePickerPreference
+      android:key="pref_music_05"
+      android:title="@string/pref_music_05_title"
+      android:summary="@string/pref_music_05_summary"
+      android:order="1004"
+      android:defaultValue=""
+      android:choiceMode="singleChoice"
+      android:positiveButtonText="@string/pref_fp_positive"
+      android:negativeButtonText="@string/pref_fp_negative"
+      nocrew:showUnreadable="false"
+      nocrew:showOthers="false"
+      nocrew:showFiles="true"
+      nocrew:showHidden="true"
+      nocrew:workingDir="/sdcard"
+      nocrew:mask=".*"/>
+
+      <org.nocrew.tomas.cyclone2000.FilePickerPreference
+      android:key="pref_music_06"
+      android:title="@string/pref_music_06_title"
+      android:summary="@string/pref_music_06_summary"
+      android:order="1005"
+      android:defaultValue=""
+      android:choiceMode="singleChoice"
+      android:positiveButtonText="@string/pref_fp_positive"
+      android:negativeButtonText="@string/pref_fp_negative"
+      nocrew:showUnreadable="false"
+      nocrew:showOthers="false"
+      nocrew:showFiles="true"
+      nocrew:showHidden="true"
+      nocrew:workingDir="/sdcard"
+      nocrew:mask=".*"/>
+
+      <org.nocrew.tomas.cyclone2000.FilePickerPreference
+      android:key="pref_music_07"
+      android:title="@string/pref_music_07_title"
+      android:summary="@string/pref_music_07_summary"
+      android:order="1006"
+      android:defaultValue=""
+      android:choiceMode="singleChoice"
+      android:positiveButtonText="@string/pref_fp_positive"
+      android:negativeButtonText="@string/pref_fp_negative"
+      nocrew:showUnreadable="false"
+      nocrew:showOthers="false"
+      nocrew:showFiles="true"
+      nocrew:showHidden="true"
+      nocrew:workingDir="/sdcard"
+      nocrew:mask=".*"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

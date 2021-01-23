@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nocrew="http://nocrew.org"
+    android:key="prefscr_hs"
+    android:keepScreenOn="true">
+
+  <Preference
+      android:key="pref_hs_reset"
+      android:title="@string/pref_hs_reset_title"
+      android:summary="@string/pref_hs_reset_summary"
+      android:selectable="true"
+      android:order="0"/>
+
+</PreferenceScreen>

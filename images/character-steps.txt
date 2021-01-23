@@ -1,0 +1,39 @@
+- Five layers:
+
+ - highlight - Screen 67.8%
+
+  - grow 30
+  - feather 50
+  - fill ffffd2
+  - reselect orig
+  - shrink 5
+  - feather 2
+  - clear
+
+ - black border - Normal 76.5%
+
+  - grow 2
+  - feather 5
+  - fill black
+  - shrink 5
+  - feather 5
+  - clear
+
+ - thick light border - Overlay 78.4%
+
+  - copy orig white
+  - shrink 12
+  - feather 10
+  - clear
+
+ - thin light border - Screen 60.0%
+
+  - shrink 4
+  - fill white
+  - shrink 2
+  - feather 3
+  - clear
+
+ - Gradiant with layer mask - Normal 100%
+
+   01b2ff - ae00ff

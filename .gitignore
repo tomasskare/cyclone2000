@@ -1,0 +1,14 @@
+*.so
+*~
+*.o
+*.d
+*.class
+gen/*
+bin/*
+obj/*
+release/*
+libs/*
+tmplibs/*
+util/arch/*
+util/support/*
+local.properties

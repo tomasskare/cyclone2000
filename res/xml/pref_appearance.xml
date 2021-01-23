@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nocrew="http://nocrew.org"
+    android:key="prefscr_appearance"
+    android:keepScreenOn="true">
+
+    <ListPreference
+	android:key="pref_gfx"
+	android:title="@string/pref_gfx_title"
+	android:defaultValue="@string/pref_gfx_default"
+	android:entries="@array/pref_gfxs"
+	android:entryValues="@array/pref_gfxvalues"
+	android:order="0"/>
+
+    <ListPreference
+	android:key="pref_fullscreen_opt"
+	android:title="@string/pref_fullscreen_title"
+	android:defaultValue="@string/pref_fullscreen_default"
+	android:entries="@array/pref_fullscreens"
+	android:entryValues="@array/pref_fullscreenvalues"
+	android:order="1"/>
+
+    <ListPreference
+	android:key="pref_vr_opt"
+	android:title="@string/pref_vr_title"
+	android:defaultValue="@string/pref_vr_default"
+	android:entries="@array/pref_vrs"
+	android:entryValues="@array/pref_vrvalues"
+	android:order="2"/>
+
+</PreferenceScreen>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cyclone 2000</string>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="pref_scr_control">Controls</string>
+    <string name="pref_control_title">Select control type</string>
+    <string name="pref_control_summary">Multi touch controls does not work with all phones</string>
+    <string name="pref_control_default">singleArrows</string>
+    <string name="pref_control_autofire_title">Auto fire</string>
+    <string name="pref_control_autofire_summary_on">Auto fire is used</string>
+    <string name="pref_control_autofire_summary_off">Auto fire is not used</string>
+    <string name="pref_control_size_title">Control size</string>
+    <string name="pref_control_size_summary">Set size of stearing control</string>
+    <string name="pref_control_size_default">2</string>
+    <string name="pref_control_button_size_title">Button size</string>
+    <string name="pref_control_button_size_summary">Set size of control buttons</string>
+    <string name="pref_control_button_size_default">2</string>
+    <string name="pref_control_keymap_title">Configure key mappings</string>
+    <string name="pref_control_gamepad_title">View Gamepad guide</string>
+    <string name="pref_control_gamepad_summary">Show guide for gamepad button mappings</string>
+    <string name="pref_control_hide_title">Hide touch controls</string>
+    <string name="pref_control_hide_default">auto</string>
+    <string name="pref_control_sensitivity_title">Control sensitivity</string>
+
+    <string name="pref_scr_appearance">Appearance</string>
+    <string name="pref_gfx_title">Graphics details</string>
+    <string name="pref_gfx_default">high</string>
+    <string name="pref_fullscreen_title">Use fullscreen where possible</string>
+    <string name="pref_fullscreen_default">auto</string>
+    <string name="pref_vr_title">VR mode</string>
+    <string name="pref_vr_default">auto</string>
+
+    <string name="pref_scr_sound">Sound and music</string>
+    <string name="pref_cat_sound">Sound settings</string>
+    <string name="pref_sound_music_title">Music volume</string>
+    <string name="pref_sound_music_summary">Set volume of background music</string>
+    <string name="pref_sound_sfx_title">Sound effects volume</string>
+    <string name="pref_sound_sfx_summary">Set volume of sound effects</string>
+
+    <string name="pref_cat_music">Background music settings</string>
+    <string name="pref_music_01_title">Select music for stages 1&#8211;16 (blue)</string>
+    <string name="pref_music_01_summary">T2k music: Mind\'s Eye</string>
+    <string name="pref_music_02_title">Select music for stages 17&#8211;32 (red)</string>
+    <string name="pref_music_02_summary">T2k music: Digital Terror</string>
+    <string name="pref_music_03_title">Select music for stages 33&#8211;48 (yellow)</string>
+    <string name="pref_music_03_summary">T2k music: Constructive Demolition</string>
+    <string name="pref_music_04_title">Select music for stages 49&#8211;64 (rainbow)</string>
+    <string name="pref_music_04_summary">T2k music: Ultra Yak</string>
+    <string name="pref_music_05_title">Select music for stages 65&#8211;80 (pink)</string>
+    <string name="pref_music_05_summary">T2k music: Mind\'s Eye</string>
+    <string name="pref_music_06_title">Select music for stages 81&#8211;96 (orange)</string>
+    <string name="pref_music_06_summary">T2k music: Digital Terror</string>
+    <string name="pref_music_07_title">Select music for stages 97&#8211;99 (white)</string>
+    <string name="pref_music_07_summary">T2k music: Constructive Demolition</string>
+
+    <string name="pref_fp_positive">OK</string>
+    <string name="pref_fp_negative">Cancel</string>
+
+    <string name="pref_scr_credits">Credits</string>
+    <string name="pref_credits_cat_programming">Programming</string>
+    <string name="pref_credits_programming_title">Tomas Skäre</string>
+    <string name="pref_credits_cat_graphics">Graphics and 3D models</string>
+    <string name="pref_credits_graphics_title">Tomas Skäre</string>
+    <string name="pref_credits_cat_sounds">Sound effects</string>
+    <string name="pref_credits_sounds1_title">Dymewiz, HardPCM, gelo_papas and NoiseCollector</string>
+    <string name="pref_credits_sounds1_summary">Via freesound.org</string>
+    <string name="pref_credits_sounds2_title">Tomas Skäre</string>
+    <string name="pref_credits_sounds2_summary">Voices and mixing</string>
+    <string name="pref_credits_cat_filepicker">File picker dialog</string>
+    <string name="pref_credits_filepicker_title">Gabor Simon</string>
+    <string name="pref_credits_filepicker_summary">Originally from CompassKeyboard, adapted by Tomas Skäre</string>
+    <string name="pref_credits_cat_thanks">Thanks to</string>
+    <string name="pref_credits_thanks1_title">Jeff Minter</string>
+    <string name="pref_credits_thanks1_summary">Thanks for the great original game</string>
+    <string name="pref_credits_thanks2_title">NVIDIA</string>
+    <string name="pref_credits_thanks2_summary">Thanks for the NVIDIA SHIELD and support</string>
+    <string name="keymapitem_delete_title">Delete</string>
+
+    <string name="pref_scr_hs">Highscores</string>
+    <string name="pref_hs_reset_title">Reset highscore list</string>
+    <string name="pref_hs_reset_summary">Reset local highscores to default</string>
+    <string name="pref_hs_reset_confirm">Are you sure you want to reset the highscore list?</string>
+
+    <string name="pref_scr_pups">Powerup extras</string>
+    <string name="pref_pups_disabled_title">Disabled powerup extras</string>
+    <string name="pref_pups_disabled_summary_on">Powerup extras are not in use</string>
+    <string name="pref_pups_disabled_summary_off">Powerup extras are in use</string>
+    <string name="pref_pups_reset_title">Delete powerup extras</string>
+    <string name="pref_pups_reset_summary">Delete all powerup extras permanently</string>
+    <string name="pref_pups_reset_confirm">Are you sure you want to delete all powerup extras? This will also reset the powerup counter.</string>
+    <string name="pref_pups_buymore_title">Buy powerup extras</string>
+    <string name="pref_pups_buymore_summary">Buy 1000 powerup extras</string>
+
+    <string name="pref_iab_purchase_failed">Something went wrong during purchase, please try again later.</string>
+
+</resources>

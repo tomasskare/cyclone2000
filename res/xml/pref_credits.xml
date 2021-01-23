@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nocrew="http://nocrew.org"
+    android:key="prefscr_credits"
+    android:keepScreenOn="true">
+
+  <PreferenceCategory
+      android:title="@string/pref_credits_cat_programming"
+      android:selectable="true"
+      android:order="0">
+
+    <Preference
+	android:key="pref_credits_programming"
+	android:title="@string/pref_credits_programming_title"
+	android:selectable="true" />
+
+  </PreferenceCategory>
+
+  <PreferenceCategory
+      android:title="@string/pref_credits_cat_graphics"
+      android:selectable="true"
+      android:order="1">
+
+    <Preference
+	android:key="pref_credits_graphics"
+	android:title="@string/pref_credits_graphics_title"
+	android:selectable="true" />
+
+  </PreferenceCategory>
+
+  <PreferenceCategory
+      android:title="@string/pref_credits_cat_sounds"
+      android:selectable="true"
+      android:order="2">
+
+    <Preference
+	android:key="pref_credits_sounds1"
+	android:title="@string/pref_credits_sounds1_title"
+	android:summary="@string/pref_credits_sounds1_summary"
+	android:selectable="true" />
+    <Preference
+	android:key="pref_credits_sounds2"
+	android:title="@string/pref_credits_sounds2_title"
+	android:summary="@string/pref_credits_sounds2_summary"
+	android:selectable="true" />
+
+  </PreferenceCategory>
+
+  <PreferenceCategory
+      android:title="@string/pref_credits_cat_filepicker"
+      android:selectable="true"
+      android:order="3">
+
+    <Preference
+	android:key="pref_credits_filepicker"
+	android:title="@string/pref_credits_filepicker_title"
+	android:summary="@string/pref_credits_filepicker_summary"
+	android:selectable="true" />
+
+  </PreferenceCategory>
+
+  <PreferenceCategory
+      android:title="@string/pref_credits_cat_thanks"
+      android:selectable="true"
+      android:order="4">
+
+    <Preference
+	android:key="pref_credits_thanks1"
+	android:title="@string/pref_credits_thanks1_title"
+	android:summary="@string/pref_credits_thanks1_summary"
+	android:selectable="true" />
+
+    <Preference
+	android:key="pref_credits_thanks2"
+	android:title="@string/pref_credits_thanks2_title"
+	android:summary="@string/pref_credits_thanks2_summary"
+	android:selectable="true" />
+
+  </PreferenceCategory>
+
+</PreferenceScreen>

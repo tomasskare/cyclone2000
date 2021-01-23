@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nocrew="http://nocrew.org"
+    android:key="prefscr_pups"
+    android:keepScreenOn="true">
+
+  <SwitchPreferenceCompat
+      android:key="pref_pups_disabled"
+      android:title="@string/pref_pups_disabled_title"
+      android:defaultValue="false"
+      android:summaryOn="@string/pref_pups_disabled_summary_on"
+      android:summaryOff="@string/pref_pups_disabled_summary_off"
+      android:order="0"/>
+
+  <Preference
+      android:key="pref_pups_reset"
+      android:title="@string/pref_pups_reset_title"
+      android:summary="@string/pref_pups_reset_summary"
+      android:selectable="true"
+      android:order="1"/>
+
+</PreferenceScreen>

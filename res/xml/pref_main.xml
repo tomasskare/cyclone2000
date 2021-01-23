@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nocrew="http://nocrew.org"
+    android:key="prefscr_top"
+    android:keepScreenOn="true">
+
+  <Preference
+      android:key="pref_main_control"
+      android:title="@string/pref_scr_control"
+      android:selectable="true"
+      android:fragment="pref_control"
+      android:order="0"/>
+
+  <Preference
+      android:key="pref_main_appearance"
+      android:title="@string/pref_scr_appearance"
+      android:selectable="true"
+      android:fragment="pref_appearance"
+      android:order="1"/>
+
+  <Preference
+      android:key="pref_main_sound"
+      android:title="@string/pref_scr_sound"
+      android:selectable="true"
+      android:fragment="pref_sound"
+      android:order="2"/>
+
+  <Preference
+      android:key="pref_main_hs"
+      android:title="@string/pref_scr_hs"
+      android:selectable="true"
+      android:fragment="pref_hs"
+      android:order="3"/>
+
+  <Preference
+      android:key="pref_main_pups"
+      android:title="@string/pref_scr_pups"
+      android:selectable="true"
+      android:fragment="pref_pups"
+      android:order="4"/>
+
+  <Preference
+      android:key="pref_main_credits"
+      android:title="@string/pref_scr_credits"
+      android:selectable="true"
+      android:fragment="pref_credits"
+      android:order="6"/>
+
+</PreferenceScreen>

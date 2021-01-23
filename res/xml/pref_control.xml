@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:nocrew="http://nocrew.org"
+    android:key="prefscr_control"
+    android:keepScreenOn="true">
+
+  <ListPreference
+      android:key="pref_control"
+      android:title="@string/pref_control_title"
+      android:defaultValue="@string/pref_control_default"
+      android:entries="@array/pref_control_entries"
+      android:entryValues="@array/pref_control_entryvalues"
+      android:order="0"/>
+
+  <SwitchPreferenceCompat
+      android:key="pref_control_autofire"
+      android:title="@string/pref_control_autofire_title"
+      android:defaultValue="false"
+      android:summaryOn="@string/pref_control_autofire_summary_on"
+      android:summaryOff="@string/pref_control_autofire_summary_off"
+      android:order="1"/>
+
+  <ListPreference
+      android:key="pref_control_size"
+      android:title="@string/pref_control_size_title"
+      android:defaultValue="@string/pref_control_size_default"
+      android:entries="@array/pref_control_sizes"
+      android:entryValues="@array/pref_control_sizevalues"
+      android:order="2"/>
+
+  <ListPreference
+      android:key="pref_control_button_size"
+      android:title="@string/pref_control_button_size_title"
+      android:defaultValue="@string/pref_control_button_size_default"
+      android:entries="@array/pref_control_sizes"
+      android:entryValues="@array/pref_control_sizevalues"
+      android:order="3"/>
+
+  <ListPreference
+      android:key="pref_control_hide_opt"
+      android:title="@string/pref_control_hide_title"
+      android:defaultValue="@string/pref_control_hide_default"
+      android:entries="@array/pref_control_hides"
+      android:entryValues="@array/pref_control_hidevalues"
+      android:order="4"/>
+
+  <org.nocrew.tomas.cyclone2000.SeekBarPreference
+      android:key="pref_control_sensitivity"
+      android:title="@string/pref_control_sensitivity_title"
+      android:defaultValue="5"
+      nocrew:min="1"
+      android:max="10"
+      android:order="5"/>
+
+  <Preference
+      android:key="pref_control_gamepad"
+      android:title="@string/pref_control_gamepad_title"
+      android:summary="@string/pref_control_gamepad_summary"
+      android:selectable="true"
+      android:order="6"/>
+
+  <org.nocrew.tomas.cyclone2000.KeyMapPreference
+      android:key="pref_control_keymap"
+      android:title="@string/pref_control_keymap_title"
+      android:summary=" "
+      android:positiveButtonText="@string/pref_fp_positive"
+      android:order="7"/>
+
+</PreferenceScreen>
