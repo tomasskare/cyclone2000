@@ -523,50 +523,12 @@ public class C2GLSurfaceView extends GLSurfaceView
 	    if (grantResults.length > 0
 		&& grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 		permStorage = true;
-
-		checkMusicFiles();
 	    } else {
 		permStorage = false;
 	    }
 	    return;
 	}
 	}
-    }
-
-
-    private void checkMusicFiles() {
-	SharedPreferences prefs =
-	    PreferenceManager
-	    .getDefaultSharedPreferences(activityContext);
-
-	boolean haveAskedMusic =
-	    prefs.getBoolean("have_asked_music", false);
-
-	if(haveAskedMusic)
-	    return;
-
-	SharedPreferences.Editor editor = prefs.edit();
-	editor.putBoolean("have_asked_music", true);
-	editor.commit();
-
-	AlertDialog.Builder builder =
-	    new AlertDialog.Builder(activityContext);
-	builder.setMessage("Music is not included by default, but the Tempest 2000 soundtrack can be downloaded automatically from the settings. The creator of this game does not take responsibility for possible copyright infringements. Would you like to do that now?");
-	builder.setCancelable(true);
-	builder.setPositiveButton("Yes",
-				  new DialogInterface.OnClickListener() {
-				      public void onClick(DialogInterface dialog, int id) {
-					  openOptions(true);
-				      }
-				  });
-	builder.setNegativeButton("No",
-				  new DialogInterface.OnClickListener() {
-				      public void onClick(DialogInterface dialog, int id) {
-					  dialog.cancel();
-				      }
-				  });
-	AlertDialog alert = builder.create();
-	alert.show();
     }
 
     // FIXME: Almost exact copy of resetDefaults() in KeyMapView.
